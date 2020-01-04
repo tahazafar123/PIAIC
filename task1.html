@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+    // var c = 6;
+    
+    // for(var i=0; i<10 ; i++){
+
+        
+    //     for(a = 6; a>=0 ;a--)
+    //     {
+    //        // document.write(a +"</br>");
+    //     // console.log("a")
+            
+    //         //document.write(" b")
+    //     }
+    //     c--;
+    //     b = +1;
+    //     a = c - b  ;
+    //     console.log(a = c -b);
+    //     for(;b>=5;)
+    //     {
+    //         document.write(" a <br/>"+a);
+    //     }
+        
+    // }
+
+
+    function rightTriangle(rows){
+  let result = '';
+  for(let i=rows;i>0;i--){
+    if(i===rows) {
+        let empty = rows-i
+      result+= ' '.repeat(empty) + '*'.repeat(i)+ '\n'
+      
+    }else{
+        result += '*'.repeat(i) + '\n';
+    }
+  }
+  return result;
+}
+
+
+function leftTriangle(rows){
+  let result = '';
+  for(let i=rows;i>0;i--){
+    if(i===rows) {
+      result += '*'.repeat(i) + '\n';
+    }else{
+      let empty = rows-i
+      result+= ' '.repeat(empty) + '*'.repeat(i)+ '\n'
+    }
+  }
+  return result;
+}
+
+//console.log(leftTriangle(5))
+console.log(rightTriangle(6));
+</script>
+
+</body>
+</html>

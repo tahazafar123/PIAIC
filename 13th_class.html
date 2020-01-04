@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+// dayOfWk = 'sat';
+// switch(dayOfWk)
+// {
+//     case "sat":
+//         alert('Whoopeee');
+//         break;
+    
+//     case "sun":
+//         alert('TGIF');
+//         break;
+
+//     case "Fri":
+//         alert("WoW");
+//         break;
+// default:    
+//     alert('Shooot meee !!');
+
+
+//}
+function findGrade(percentage)
+{
+//percentage = '79';
+
+    switch(true)
+    {
+        case (percentage >= 80 && percentage <=100):
+            alert('A Grade');
+            return(1);
+            break;
+        case (percentage >=60 && percentage <= 79):
+            alert('B Grade');
+            break;
+        default: alert('Please contact dept'); break;
+    }
+}
+findGrade(81);
+</script>
+
+
+</body>
+</html>

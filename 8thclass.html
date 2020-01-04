@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="1.css">
+    <title>8th Class make bulb on and off </title>
+</head>
+<body>
+    <!-- <script>
+        function myFunction() { document.getElementById("demo").innerText = "Paragraph Change"}
+    </script>
+    <p id="demo"> Paragraph</p>
+    <button type="button"   onclick="myFunction()"> try it</button> -->
+<script>
+    function onbulb() { document.getElementById("bulb").src='on.jpeg'}
+    function offbulb() {document.getElementById("bulb").src='off.jpeg'}
+</script>
+    
+    <!-- <button onclick="document.getElementById(image).src='off.jpeg'"> Off Bulb </button>
+    <img id='image' src='off.jpeg'  style="width: 80px;" > 
+    <button onclick="document.getElementById(image).src='on.jpeg'">On Blub</button> -->
+    
+    <button id="On" onclick="onbulb()"> On Bulb </button>
+    <img id="bulb" src="on.jpeg">
+    <button id="Off" onclick="offbulb()"> Off Bulb</button>
+</body>
+</html>

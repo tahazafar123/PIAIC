@@ -1,0 +1,97 @@
+body{
+    background-color:white;
+}
+@font-face{
+    font-family: 'Redemption';
+    src: url('font/Redemption.ttf')
+
+}
+h1{
+    text-transform: capitalize;
+    color: blue;
+    font-size: 45px;
+    font-family: Redemption;
+    text-decoration: blink;
+    letter-spacing: 0.01em;
+    word-spacing: 2em;
+    
+    color: gold;
+    text-shadow: 5px 7px 5px black;
+}
+h2:first-letter
+{
+    font-size: 32px;
+}
+p:first-line{font-size: 28px; background-color: blanchedalmond;}
+
+h2{
+    letter-spacing: 0.2em;
+    color: blue;
+    background-color: gray;
+    text-align: justify;
+    vertical-align: text-bottom;
+    background-image: url("images/3.jpg");
+    background-size: 10%;
+    
+
+}
+i{
+    size: 35px;
+}
+p{font-style: italic;
+    font-weight: bold;
+    word-spacing: 0.2em;
+    background-color: blue;
+    color: gold;
+    text-shadow: 1px 1px 0px black;
+}
+
+
+p.one {
+    background-color: #eeeeee;
+    color: #666666;
+    text-shadow: 1px 1px 0px #000000;}
+    p.two {
+    background-color: #dddddd;
+    color: #666666;
+    text-shadow: 1px 1px 3px #666666;}
+    p.three {
+    background-color: #cccccc;
+    color: #ffffff;
+    text-shadow: 2px 2px 7px #111111;}
+    p.four {
+    background-color: #bbbbbb;
+    color: #cccccc;
+    text-shadow: -1px -2px #666666;}
+    p.five {
+    background-color: #aaaaaa;
+    color: #ffffff;
+    text-shadow: -1px -1px #666666;}
+
+a:link{
+    color: crimson;
+    text-decoration: none;
+}
+a:visited{
+    color: gold;
+}
+a:hover{
+    color: green;
+    }
+a:active{
+    color: grey;
+}
+
+input{
+    padding: 6px 12px 6px 12px;
+    border: 1px solid black;
+    color: blue;
+}
+input.submit:hover {
+    background-color: #665544;}
+    input.submit:active {
+    background-color: black;}
+    input.text {
+    color: #cccccc;}
+    input.text:focus {
+    color: #665544;}
